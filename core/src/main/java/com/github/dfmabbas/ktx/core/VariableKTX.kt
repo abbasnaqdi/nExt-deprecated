@@ -1,4 +1,4 @@
-package com.github.dfmabbas.ktx.variable
+package com.github.dfmabbas.ktx.core
 
 import android.util.Log
 
@@ -14,10 +14,6 @@ fun Any.printDebug(tag: String = "KTX DEBUG LOG ->") {
 
 fun Any.printInfo(tag: String = "KTX INFO LOG ->") {
     Log.i(tag, "$this\n")
-
-    fun Any.aaa() {
-
-    }
 }
 
 fun Any.printWarn(tag: String = "KTX WARN LOG ->") {

@@ -8,10 +8,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/core" />
             <option value="$PROJECT_DIR$/cryptography" />
             <option value="$PROJECT_DIR$/provider" />
             <option value="$PROJECT_DIR$/rx" />
-            <option value="$PROJECT_DIR$/variable" />
             <option value="$PROJECT_DIR$/view" />
             <option value="$PROJECT_DIR$/widget" />
           </set>

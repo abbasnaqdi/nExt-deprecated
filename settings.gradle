@@ -1,1 +1,1 @@
-include ':view', ':variable', ':widget', ':rx', ':cryptography', ':provider'
+include ':view', ':core', ':widget', ':rx', ':cryptography', ':provider'
