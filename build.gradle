@@ -3,8 +3,8 @@ buildscript {
     ext.kotlinV = '1.3.11'
     ext.maxV = 28
     ext.minV = 15
-    ext.vName = "0.0.2"
-    ext.vCode = 2
+    ext.vName = "0.0.3"
+    ext.vCode = 3
     ext.stdlib = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlinV"
 
 
