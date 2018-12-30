@@ -1,6 +1,5 @@
 package com.github.dfmabbas.ktx.widget
 
-import android.Manifest
 import android.app.Activity
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -63,19 +62,17 @@ fun Activity.callActivity(intent: Intent, result: Int) {
 fun Activity.isPermission(permissionArray: Array<String>): Boolean {
     if (Build.VERSION.SDK_INT < 23) return true
 
-    val isRecord = ContextCompat.checkSelfPermission(
-        this,
-        Manifest.permission.RECORD_AUDIO
-    ) == PackageManager.PERMISSION_GRANTED
-    val isStorage = ContextCompat.checkSelfPermission(
-        this,
-        Manifest.permission.WRITE_EXTERNAL_STORAGE
-    ) == PackageManager.PERMISSION_GRANTED
+    val isPermissionList = mutableListOf<Boolean>()
 
-    if (!isRecord || !isStorage) ActivityCompat.requestPermissions(
-        this,
-        permissionArray, 0
-    )
+    permissionArray.forEach {
+        isPermissionList.add(
+            ContextCompat.checkSelfPermission(this, it)
+                    == PackageManager.PERMISSION_GRANTED
+        )
+    }
 
-    return isRecord && isStorage
+    return if (isPermissionList.any { isp -> !isp }) {
+        ActivityCompat.requestPermissions(this, permissionArray, 0)
+        false
+    } else true
 }
