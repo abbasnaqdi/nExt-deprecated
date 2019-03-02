@@ -1,7 +1,7 @@
 package com.github.dfmabbas.ktx.widget
 
+import android.app.Activity
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 
 fun Fragment.appendFragment(frg: Fragment, frgId: Int) {
@@ -11,7 +11,7 @@ fun Fragment.appendFragment(frg: Fragment, frgId: Int) {
         ?.commit()
 }
 
-fun Fragment.callActivity(activity: AppCompatActivity) {
+fun Fragment.callActivity(activity: Activity) {
     startActivity(
         android.content.Intent(
             this.activity, activity::class.java
@@ -19,13 +19,13 @@ fun Fragment.callActivity(activity: AppCompatActivity) {
     )
 }
 
-fun Fragment.callActivity(activity: AppCompatActivity, bundle: Bundle?) {
+fun Fragment.callActivity(activity: Activity, bundle: Bundle?) {
     val intent = android.content.Intent(this.activity, activity::class.java)
     bundle?.let { intent.putExtras(it) }
     startActivity(intent)
 }
 
-fun Fragment.callActivity(activity: AppCompatActivity, result: Int) {
+fun Fragment.callActivity(activity: Activity, result: Int) {
     val intent = android.content.Intent(this.activity, activity::class.java)
     startActivityForResult(intent, result)
 }

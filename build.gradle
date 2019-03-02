@@ -1,12 +1,10 @@
 buildscript {
-
-    ext.kotlinV = '1.3.11'
+    ext.kotlinV = '1.3.21'
     ext.maxV = 28
     ext.minV = 15
-    ext.vName = "0.0.4"
-    ext.vCode = 4
+    ext.vName = "0.0.5"
+    ext.vCode = 5
     ext.stdlib = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlinV"
-
 
     repositories {
         google()
@@ -14,7 +12,7 @@ buildscript {
 
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.3.0-rc03'
+        classpath 'com.android.tools.build:gradle:3.4.0-beta05'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinV"
     }
 }
