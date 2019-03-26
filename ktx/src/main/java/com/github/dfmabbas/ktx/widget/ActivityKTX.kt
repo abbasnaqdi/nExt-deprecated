@@ -56,7 +56,7 @@ fun Activity.callActivity(activity: Activity) {
 }
 
 fun Activity.callActivity(intent: Intent, result: Int) {
-    startActivityForResult(intent, 1000)
+    startActivityForResult(intent, result)
 }
 
 fun Activity.isPermission(permissionArray: Array<String>): Boolean {
