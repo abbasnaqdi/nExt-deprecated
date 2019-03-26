@@ -1,8 +1,6 @@
 package com.github.dfmabbas.ktx.rx
 
-import io.reactivex.Completable
-import io.reactivex.Flowable
-import io.reactivex.Observable
+import io.reactivex.*
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 
@@ -12,6 +10,16 @@ fun <T> Flowable<T>.newThread(): Flowable<T> {
 }
 
 fun <T> Observable<T>.newThread(): Observable<T> {
+    return this.subscribeOn(Schedulers.newThread())
+        .observeOn(AndroidSchedulers.mainThread())
+}
+
+fun <T> Maybe<T>.newThread(): Maybe<T> {
+    return this.subscribeOn(Schedulers.newThread())
+        .observeOn(AndroidSchedulers.mainThread())
+}
+
+fun <T> Single<T>.newThread(): Single<T> {
     return this.subscribeOn(Schedulers.newThread())
         .observeOn(AndroidSchedulers.mainThread())
 }
