@@ -1,4 +1,4 @@
-package com.github.dfmabbas.ktx.provider
+package com.github.oky2abbas.ktx.provider
 
 import android.annotation.SuppressLint
 import android.content.Context

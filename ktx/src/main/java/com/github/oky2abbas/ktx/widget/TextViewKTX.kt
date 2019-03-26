@@ -1,4 +1,4 @@
-package com.github.dfmabbas.ktx.widget
+package com.github.oky2abbas.ktx.widget
 
 import android.annotation.TargetApi
 import android.os.Build

@@ -1,4 +1,4 @@
-package com.github.dfmabbas.ktx.cryptography
+package com.github.oky2abbas.ktx.cryptography
 
 import android.util.Base64
 

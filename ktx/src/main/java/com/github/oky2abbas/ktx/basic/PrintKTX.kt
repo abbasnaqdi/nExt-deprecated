@@ -1,4 +1,4 @@
-package com.github.dfmabbas.ktx.basic
+package com.github.oky2abbas.ktx.basic
 
 import android.util.Log
 

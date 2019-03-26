@@ -1,4 +1,4 @@
-package com.github.dfmabbas.ktx.rx
+package com.github.oky2abbas.ktx.rx
 
 import io.reactivex.*
 import io.reactivex.android.schedulers.AndroidSchedulers
