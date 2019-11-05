@@ -12,9 +12,11 @@
             <option value="$PROJECT_DIR$/component" />
             <option value="$PROJECT_DIR$/core" />
             <option value="$PROJECT_DIR$/crypto" />
+            <option value="$PROJECT_DIR$/file" />
             <option value="$PROJECT_DIR$/mvp" />
             <option value="$PROJECT_DIR$/mvvm" />
             <option value="$PROJECT_DIR$/provider" />
+            <option value="$PROJECT_DIR$/res" />
             <option value="$PROJECT_DIR$/rx" />
             <option value="$PROJECT_DIR$/widget" />
           </set>

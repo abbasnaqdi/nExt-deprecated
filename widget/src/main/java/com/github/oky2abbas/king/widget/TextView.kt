@@ -4,6 +4,10 @@ import android.annotation.TargetApi
 import android.os.Build
 import android.widget.TextView
 
+fun TextView.clear() {
+    this.text = ""
+}
+
 @TargetApi(Build.VERSION_CODES.JELLY_BEAN_MR1)
 fun TextView.setDrawable(
     start: Int = 0, end: Int = 0,

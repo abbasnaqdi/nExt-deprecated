@@ -17,6 +17,9 @@ buildscript {
         busV = '3.1.1'
         dagger2V = '2.25.2'
         lifecycleV = '2.1.0'
+        gsonV = '2.8.6'
+        retrofitV = '2.6.2'
+        materialV = '1.0.0'
     }
 
     repositories {

@@ -27,6 +27,14 @@ fun View.toHide() {
     this.visibility = View.GONE
 }
 
+fun View.enable() {
+    this.isEnabled = true
+}
+
+fun View.disable() {
+    this.isEnabled = false
+}
+
 fun View.toggleVisibility() {
     if (this.visibility == View.VISIBLE)
         this.toHide()
