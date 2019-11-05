@@ -1,4 +1,8 @@
 ```
+
+`This library collection contains useful methods and extensions for developers.
+Please contribute to the development of this library collection.`
+
 def kingV = '0.1.0'
 
 implementation "com.github.oky2abbas.king:mvp:$kingV"
