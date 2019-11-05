@@ -1,1 +1,1 @@
-include ':ktx'
+include ':core', ':rx', ':widget', ':provider', ':crypto', ':bus', ':component', ':mvvm', ':mvp'
