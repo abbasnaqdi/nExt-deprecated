@@ -1,11 +1,9 @@
 buildscript {
-    ext.kotlin_version = '1.3.50'
-
     ext {
         minV = 15
         maxV = 29
-        vName = "0.0.9"
-        vCode = 9
+        vName = "0.1.0"
+        vCode = 10
 
         kotlinV = '1.3.50'
         gradleV = '3.5.2'
@@ -30,7 +28,6 @@ buildscript {
     dependencies {
         classpath "com.android.tools.build:gradle:${gradleV}"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinV"
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
 
