@@ -11,8 +11,8 @@ Add to your root build.gradle :Ï
 ```Groovy
 allprojects {  
  	repositories {   
-		...     
-  	maven { url 'https://jitpack.io' }  
+    	...     
+      maven { url 'https://jitpack.io' }  
 	} 
 }
 ```
@@ -21,7 +21,7 @@ Add the dependency :
 
 ```Groovy
 dependencies {    
-  implementation 'com.github.oky2abbas.nExt:1.0.0'
+  	implementation 'com.github.oky2abbas:nExt:1.0.0'
 }
 ```
 
