@@ -1,23 +1,23 @@
 buildscript {
     ext {
-        minV = 15
+        minV = 19
         maxV = 29
-        vName = "0.1.0"
-        vCode = 10
+        vName = "1.0.0"
+        vCode = 100
 
-        kotlinV = '1.3.50'
-        gradleV = '3.5.2'
+        kotlinV = '1.3.61'
+        gradleV = '3.6.0'
         appcompatV = '1.1.0'
         rxAndroidV = '2.1.1'
-        junitV = '4.12'
+        junitV = '4.13'
         junitExtV = '1.1.1'
         espressoV = '3.2.0'
         busV = '3.1.1'
-        dagger2V = '2.25.2'
-        lifecycleV = '2.1.0'
+        lifecycleV = '2.2.0'
         gsonV = '2.8.6'
         retrofitV = '2.6.2'
-        materialV = '1.0.0'
+        materialV = '1.1.0'
+        knifeV = '10.2.1'
     }
 
     repositories {
@@ -28,6 +28,7 @@ buildscript {
     dependencies {
         classpath "com.android.tools.build:gradle:${gradleV}"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinV"
+        classpath "com.jakewharton:butterknife-gradle-plugin:$knifeV"
     }
 }
 
@@ -35,6 +36,7 @@ allprojects {
     repositories {
         google()
         jcenter()
+        maven { url 'https://jitpack.io' }
     }
 }
 

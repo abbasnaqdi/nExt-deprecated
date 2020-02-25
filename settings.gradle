@@ -1,1 +1,1 @@
-include ':core', ':rx', ':widget', ':provider', ':crypto', ':bus', ':component', ':mvvm', ':mvp', ':file', ':res'
+include ':library'

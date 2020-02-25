@@ -3,18 +3,18 @@
 `This library collection contains useful methods and extensions for developers.
 Please contribute to the development of this library collection.`
 
-def kingV = '0.1.0'
+def nExtV = '0.1.0'
 
-implementation "com.github.oky2abbas.king:mvp:$kingV"
-implementation "com.github.oky2abbas.king:component:$kingV"
-implementation "com.github.oky2abbas.king:widget:$kingV"
-implementation "com.github.oky2abbas.king:bus:$kingV"
-implementation "com.github.oky2abbas.king:core:$kingV"
-implementation "com.github.oky2abbas.king:res:$kingV"
-implementation "com.github.oky2abbas.king:mvvm:$kingV"
-implementation "com.github.oky2abbas.king:rx:$kingV"
-implementation "com.github.oky2abbas.king:file:$kingV"
-implementation "com.github.oky2abbas.king:provider:$kingV"
-implementation "com.github.oky2abbas.king:crypto:$kingV"
+implementation "nExt:mvp:$nExtV"
+implementation "nExt:component:$nExtV"
+implementation "nExt:widget:$nExtV"
+implementation "nExt:bus:$nExtV"
+implementation "nExt:core:$nExtV"
+implementation "nExt:res:$nExtV"
+implementation "nExt:mvvm:$nExtV"
+implementation "nExt:rx:$nExtV"
+implementation "nExt:file:$nExtV"
+implementation "nExt:provider:$nExtV"
+implementation "nExt:crypto:$nExtV"
 
 ```
