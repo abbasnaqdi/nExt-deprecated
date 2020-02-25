@@ -1,8 +1,8 @@
-##### `nExt`
+#### nExt
 
-[![](https://jitpack.io/v/oky2abbas/nExt.svg)](https://jitpack.io/#dfmAbbas/nExt) [![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/oky2abbas/reactor) [![API](https://img.shields.io/badge/API-19%2B-blue.svg?style=flat)](https://github.com/oky2abbas/reactor)
+[![](https://jitpack.io/v/oky2abbas/nExt.svg)](https://jitpack.io/#oky2abbas/nExt) [![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/oky2abbas/nExt) [![API](https://img.shields.io/badge/API-19%2B-blue.svg?style=flat)](https://github.com/oky2abbas/nExt)
 
-** **nExt** is a library that contains (**useful code**, **extensions**, and **solutions** that are useful for Android developers and **save time**.
+** **nExt** is a library that contains (`useful code`, `extensions`, and `solutions` that are useful for Android developers and **save time**.
 
 ##### Getting Started :
 
@@ -11,8 +11,8 @@ Add to your root build.gradle :Ï
 ```Groovy
 allprojects {  
  	repositories {   
-			...     
-  		maven { url 'https://jitpack.io' }  
+		...     
+  	maven { url 'https://jitpack.io' }  
 	} 
 }
 ```
@@ -21,7 +21,7 @@ Add the dependency :
 
 ```Groovy
 dependencies {    
-  	implementation 'com.github.oky2abbas.nExt:1.0.0'
+  implementation 'com.github.oky2abbas.nExt:1.0.0'
 }
 ```
 
