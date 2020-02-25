@@ -5,7 +5,7 @@ import com.github.oky2abbas.nExt.component.LocaleUtils
 import dagger.android.AndroidInjector
 import dagger.android.support.DaggerApplication
 
-class BaseDaggerApplication : DaggerApplication() {
+abstract class BaseDaggerApplication : DaggerApplication() {
 
     override fun onCreate() {
         super.onCreate()

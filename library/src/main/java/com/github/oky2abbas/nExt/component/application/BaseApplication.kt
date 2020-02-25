@@ -4,7 +4,7 @@ import android.app.Application
 import android.content.res.Configuration
 import com.github.oky2abbas.nExt.component.LocaleUtils
 
-class BaseApplication : Application() {
+abstract class BaseApplication : Application() {
 
     override fun onCreate() {
         super.onCreate()
