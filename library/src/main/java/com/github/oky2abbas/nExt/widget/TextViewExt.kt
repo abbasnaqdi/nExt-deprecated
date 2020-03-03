@@ -3,6 +3,7 @@ package com.github.oky2abbas.nExt.widget
 import android.annotation.TargetApi
 import android.os.Build
 import android.widget.TextView
+import com.github.oky2abbas.nExt.basic.logE
 
 fun TextView.clear() {
     this.text = ""
