@@ -2,8 +2,8 @@ buildscript {
     ext {
         minV = 19
         maxV = 29
-        vName = "1.0.4"
-        vCode = 104
+        vName = "1.0.5"
+        vCode = 105
 
         kotlinV = '1.3.61'
         gradleV = '3.6.1'
