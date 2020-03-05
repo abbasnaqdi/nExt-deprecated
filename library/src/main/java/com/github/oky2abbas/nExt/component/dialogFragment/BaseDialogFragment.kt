@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.annotation.LayoutRes
 import androidx.annotation.StyleRes
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.view.ContextThemeWrapper
 import androidx.fragment.app.DialogFragment
 import butterknife.ButterKnife
 
@@ -31,7 +32,8 @@ abstract class BaseDialogFragment : DialogFragment() {
         savedInstanceState: Bundle?
     ): View? {
         super.onCreateView(inflater, container, savedInstanceState)
-        val view = inflater.inflate(
+        val contextThemeWrapper = ContextThemeWrapper(activity, activity?.theme)
+        val view = inflater.cloneInContext(contextThemeWrapper).inflate(
             layoutRes(), container, false
         )
         ButterKnife.bind(this, view)
