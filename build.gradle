@@ -2,10 +2,10 @@ buildscript {
     ext {
         minV = 19
         maxV = 29
-        vName = "1.0.6"
-        vCode = 106
+        vName = "1.0.7"
+        vCode = 107
 
-        kotlinV = '1.3.61'
+        kotlinV = '1.3.71'
         gradleV = '3.6.1'
         appcompatV = '1.1.0'
         rxAndroidV = '2.1.1'
@@ -13,7 +13,7 @@ buildscript {
         junitExtV = '1.1.1'
         espressoV = '3.2.0'
         busV = '3.1.1'
-        dagger2V = '2.26'
+        dagger2V = '2.27'
         lifecycleV = '2.2.0'
         gsonV = '2.8.6'
         retrofitV = '2.6.2'

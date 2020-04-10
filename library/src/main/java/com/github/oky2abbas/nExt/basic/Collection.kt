@@ -1,25 +1,25 @@
 package com.github.oky2abbas.nExt.basic
 
 
-fun <T> List<T>.printList() {
+fun <T> List<T>.logList() {
     this.forEachIndexed { index, t ->
         "$index -> ".logE(t.toString())
     }
 }
 
-fun <T> Array<T>.printList() {
+fun <T> Array<T>.logList() {
     this.forEachIndexed { index, t ->
         "$index -> ".logE(t.toString())
     }
 }
 
-fun <K, V> Map<K, V>.printMap() {
+fun <K, V> Map<*, *>.logMap() {
     this.forEach {
         "${it.key} -> ${it.value}".logE(this.toString())
     }
 }
 
-fun <K, V> HashMap<K, V>.printMap() {
+fun <K, V> HashMap<*, *>.logMap() {
     this.forEach {
         "${it.key} -> ${it.value}".logE(this.toString())
     }
