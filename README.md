@@ -4,9 +4,11 @@
 
 ** **nExt** is a library that contains (`useful code`, `extensions`, and `solutions` that are useful for Android developers and **save time**.
 
-[![Funding for faster development](https://img.shields.io/badge/Donate-IRAN-green)](https://idpay.ir/oky2abbas)
-**Funding for faster development**  (`only works with Iranian bank cards`) 
-Payment gateway: https://idpay.ir/oky2abbas
+[![Donate](https://img.shields.io/badge/Donate-IRAN-green)](https://idpay.ir/oky2abbas)
+<br>**Funding for faster development**  (`only works with IRAN bank cards`)
+<br>**Payment gateway**: https://idpay.ir/oky2abbas
+
+
 
 ##### Getting Started :
 
