@@ -1,26 +1,21 @@
 package com.github.oky2abbas.nExt.basic
 
 
-fun <T> List<T>.logList() {
-    this.forEachIndexed { index, t ->
-        "$index -> ".logE(t.toString())
-    }
-}
-
-fun <T> Array<T>.logList() {
-    this.forEachIndexed { index, t ->
-        "$index -> ".logE(t.toString())
-    }
-}
-
-fun <K, V> Map<*, *>.logMap() {
+fun <T> Collection<T>.logListE(tag: String = "nExt -> ") {
     this.forEach {
-        "${it.key} -> ${it.value}".logE(this.toString())
+        it?.logE(tag)
     }
 }
 
-fun <K, V> HashMap<*, *>.logMap() {
+fun <T> Array<T>.logArrayE(tag: String = "nExt -> ") {
     this.forEach {
-        "${it.key} -> ${it.value}".logE(this.toString())
+        it?.logE(tag)
     }
 }
+
+fun <K, V> Map<*, *>.logMapE(tag: String = "nExt -> ") {
+    this.forEach {
+        this.logE("$tag${it.key}:${it.value}")
+    }
+}
+

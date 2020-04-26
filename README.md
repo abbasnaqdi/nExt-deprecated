@@ -27,7 +27,7 @@ Add the dependency :
 
 ```Groovy
 dependencies {    
-  	implementation 'com.github.oky2abbas:nExt:1.0.1'
+  	implementation 'com.github.oky2abbas:nExt:1.x.x'
 }
 ```
 
