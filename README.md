@@ -8,9 +8,13 @@
 
 [![Donate](https://img.shields.io/badge/Donate-green)](https://idpay.ir/oky2abbas)
 
-**Bitcoin (BTC) Donate: `bc1qhgvnx2nfzr0qep5fnsevyyn59k32wpe7q0c7nh`**
+**Bitcoin (BTC) [![Donate](https://img.shields.io/badge/Donate-green)](https://idpay.ir/oky2abbas): `1HPZyUP9EJZi2S87QrvCDrE47qRV4i5Fze`**
 
-**Ethereum (ETH) Donate: `0x0dA44bbcc2d7BBF11eb070A81CB24c4eE7Bf1AD9`**
+**Ethereum (ETH) [![Donate](https://img.shields.io/badge/Donate-green)](https://idpay.ir/oky2abbas): `0x4a4b0A26Eb31e9152653E4C08bCF10f04a0A02a9`**
+
+**Tron (TRX) [![Donate](https://img.shields.io/badge/Donate-green)](https://idpay.ir/oky2abbas): `TAewZVAD4eKjPo9uJ5TesxJUrXiBtVATsK`**
+
+
 
 
 
